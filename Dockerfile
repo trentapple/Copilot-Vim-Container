@@ -8,3 +8,7 @@ RUN git clone https://github.com/github/copilot.vim ~/.vim/pack/github/start/cop
 
 #ENTRYPOINT ["vim"]
 CMD [ "vim" ]
+
+# Alternatively, run setup initially
+#CMD [ "vim -c 'Copilot setup' -c 'qa'" ]
+#CMD [ "vim", "-c", "Copilot setup", "-c", "qa" ]
